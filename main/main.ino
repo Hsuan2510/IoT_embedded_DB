@@ -605,11 +605,7 @@ void handleDataRequest() {
   
   // 將 JSON 資料轉換成字串
   String jsonData;
-  Serial.println("原本資料在這裡!!!!");
-  Serial.println(jsonData);
   serializeJson(jsonDoc, jsonData);
-  Serial.println("資料在這裡!!!!");
-  Serial.println(jsonData);
   // 回傳 JSON 資料給前端網頁
   server.send(200, "application/json", jsonData);
   

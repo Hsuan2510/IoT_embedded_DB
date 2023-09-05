@@ -201,7 +201,7 @@ void grafcet4(){
 		X44 = 0;
 		X40 = 1; 
 	} 
-	printf("X40 = %d X2=41 = %d X42 = %d X43 = %d X44 = %d \n",X40,X41,X42,X43,X44); 
+	
 }
 void active0()
 {
@@ -235,6 +235,7 @@ int main(void)
 		printf("X0 = %d X1 = %d X2 = %d X3 = %d X4 = %d ",X0,X1,X2,X3,X4); 
 		printf("X10 = %d X11 = %d X12 = %d X13 = %d X14 = %d ",X10,X11,X12,X13,X14); 
 		printf("X20 = %d X21 = %d X22 = %d X23 = %d ",X20,X21,X22,X23); 
-		printf("X30 = %d X2=31 = %d X32 = %d X33 = %d X34 = %d  X35 = %d  X36 = %d ",X30,X31,X32,X33,X34,X35,X36);
+		printf("X30 = %d X31 = %d X32 = %d X33 = %d X34 = %d  X35 = %d  X36 = %d ",X30,X31,X32,X33,X34,X35,X36);
+		printf("X40 = %d X2=41 = %d X42 = %d X43 = %d X44 = %d \n",X40,X41,X42,X43,X44); 
 	}
 }
